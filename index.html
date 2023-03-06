@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <title>TicTacToe - AR</title>
+    <link rel="shortcut icon" 
+    href="img/favicon.png.png" 
+    type="image/png">
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Impossible Tic Tac Toe</h1>
+        </section>
+        <section class="display">
+            You are <span class="display-player playerX">X</span>
+        </section>
+        <section class="container">
+            <div class="tile zero"></div>
+            <div class="tile one"></div>
+            <div class="tile two"></div>
+            <div class="tile three"></div>
+            <div class="tile four"></div>
+            <div class="tile five"></div>
+            <div class="tile six"></div>
+            <div class="tile seven"></div>
+            <div class="tile eight"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+<ul id="accordion"> 
+    <li>
+        <label for="first">Explanation:</label>
+        <input type="radio" name="accordion">
+        <div class = "content"><p>When deciding to make a project to test my coding ability, I did not want to make a normal tic tac toe game, I wanted it to have a twist. I didn't want the program to be a two-player and I wanted it to always win, even if the human player is starting first.
+            A impossible tic-tac-toe game is often programmed more effiently with a function called minimax (A form of artifical intelligence where it minimizes any tendency to lose a game while maximizing any opportunity to win the game)
+            However, I did not have enough experience and knowledge in programming in order to build it using minimax, so I hardcoded it and used if statements in a sequence where it minimizes most potentional combinations by consistently
+            preforming attacking moves to finish the game sooner. In the 3x3 grid of Tic Tac Toe, there are exactly 19,683 possible combinations (taking into account the symmetry of the game) and I was able to complete the program 
+            that has absolutely no tender spots using around 500 lines of code in JavaScript. The entire project took me around 6 hours to complete, including the HTML and CSS, as it was completely from scratch. However, I did get stuck
+            at the click function and the reset button so I had to use online resources in order to learn how to create them while fitting into my project. Overall, I found it as a learning experience but I really believe I could've been able to code it in a more efficent manner
+            so I hope to continue learning in order to enhance and sharpen my programming skill set. - Anas Rustom </p> </div>
+        </li>
+        </ul>
+    </main>
+</body>
+</html>
